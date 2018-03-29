@@ -276,27 +276,7 @@ namespace WindowsFormsApp4
             }
             Counter++;Checker();
         }
-
-        private void groupBox2_MouseHover(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void yRadio_CheckedChanged(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void xRadio_CheckedChanged(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void yRadio_CheckedChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             if (xRadio.Checked)
@@ -360,12 +340,5 @@ namespace WindowsFormsApp4
             xPlayerName.Text = oPlayerName.Text;
             oPlayerName.Text = Aux; 
         }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-         
-        }
-
-
     }
 }
