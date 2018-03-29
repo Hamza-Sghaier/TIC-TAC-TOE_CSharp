@@ -272,7 +272,6 @@
             this.xRadio.TabStop = true;
             this.xRadio.Text = "X Starts";
             this.xRadio.UseVisualStyleBackColor = true;
-            this.xRadio.CheckedChanged += new System.EventHandler(this.xRadio_CheckedChanged);
             // 
             // yRadio
             // 
@@ -283,7 +282,6 @@
             this.yRadio.TabIndex = 22;
             this.yRadio.Text = "O Starts";
             this.yRadio.UseVisualStyleBackColor = true;
-            this.yRadio.CheckedChanged += new System.EventHandler(this.yRadio_CheckedChanged_1);
             // 
             // groupBox1
             // 
@@ -310,7 +308,6 @@
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Start";
-            this.groupBox2.MouseHover += new System.EventHandler(this.groupBox2_MouseHover);
             // 
             // button1
             // 
@@ -350,7 +347,6 @@
             this.button4.TabIndex = 27;
             this.button4.Text = "_";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel1
             // 
